@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: hocaw23860@mevori.com
+Date: Thu, 25 May 2023 13:24:46 -0000
+Message-ID: <168502108665.17168.13842687107501911221@LAPTOP-KC8J6LP7>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/reset/Nw/bork9a-bae276e6bbca09bf54e8a05681b1a883/
+
+Your username, in case you’ve forgotten: robert
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

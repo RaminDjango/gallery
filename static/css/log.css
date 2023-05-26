@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/962/647/original/sunset-landscape-illustration-with-mountain-and-pine-forest-vector.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size:cover ;
+    overflow-y: hidden;
+}
+
+.container {
+    position: relative;
+    top: 90px;
+    left:550px;
+    background-color: rgba(255, 255, 255, 0.548);
+    width: 350px;
+    height: 550px;
+    border-radius: 4px;
+}
+.img-login img {
+    position: relative;
+    left: 120px;
+    animation: img 2s forwards infinite;
+}
+@keyframes img {
+    0% {transform: rotate(-360deg);}
+    
+}
+.card-title h2 {
+    position: relative;
+    left: 100px;
+    top: 20px;
+    font-family: 'Heebo', sans-serif;
+    color: rgba(0, 0, 0, 0.777);
+}
+.text p {
+    position: relative;
+    top: 35px;
+    left: 50px;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(41, 40, 40);
+}
+.username input {
+    position: relative;
+    top: 60px;
+    left: 40px;
+    width: 270px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.635);
+}
+.username i {
+    position: relative;
+    top: 60px;
+    left: -220px;
+}
+::placeholder {
+    color: black;
+}
+.password input {
+    position: relative;
+    top: 90px;
+    left: 40px;
+    width: 270px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.635);
+}
+.password i {
+    position: relative;
+    top: 90px;
+    left: -220px;
+}
+.forget-password a {
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    top: 120px;
+    left: 180px;
+}
+.log-btn button {
+    position: relative;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 170px;
+    top: 130px;
+    cursor: pointer;
+    left: 87px;
+    transition: all 0.3s;
+}
+.log-btn button:hover {
+    background-color: rgba(255, 255, 255, 0.467);
+}
+.ask-redirect-register h5 {
+    position: relative;
+    top: 170px;
+    left: 50px;
+}
+@media all and (max-width:500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        overflow-x: hidden;
+        background-image: url(https://static.vecteezy.com/system/resources/previews/002/962/647/original/sunset-landscape-illustration-with-mountain-and-pine-forest-vector.jpg);
+        background-repeat: no-repeat;
+        height: 2260px;
+        background-size:cover ;
+        overflow-y: hidden;
+    }
+    .container {
+        position: relative;
+        top: 140px;
+        
+        left:35px;
+        background-color: rgba(255, 255, 255, 0.548);
+        width: 350px;
+        height: 550px;
+        border-radius: 4px;
+    }
+    .img-login img {
+        position: relative;
+        left: 120px;
+        animation: img 2s forwards infinite;
+    }
+    @keyframes img {
+        0% {transform: rotate(-360deg);}
+        
+    }
+    .card-title h2 {
+        position: relative;
+        left: 100px;
+        top: 20px;
+        font-family: 'Heebo', sans-serif;
+        color: rgba(0, 0, 0, 0.777);
+    }
+    .text p {
+        position: relative;
+        top: 35px;
+        left: 50px;
+        font-family: 'Heebo', sans-serif;
+        color: rgb(41, 40, 40);
+    }
+    .username input {
+        position: relative;
+        top: 60px;
+        left: 40px;
+        width: 270px;
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 15px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.635);
+    }
+    .username i {
+        position: relative;
+        top: 60px;
+        left: -220px;
+    }
+    ::placeholder {
+        color: black;
+    }
+    .password input {
+        position: relative;
+        top: 90px;
+        left: 40px;
+        width: 270px;
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 15px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.635);
+    }
+    .password i {
+        position: relative;
+        top: 90px;
+        left: -220px;
+    }
+    .forget-password a {
+        position: relative;
+        font-family: 'Heebo', sans-serif;
+        top: 120px;
+        left: 180px;
+    }
+    .log-btn button {
+        position: relative;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        padding: 10px;
+        width: 170px;
+        top: 130px;
+        cursor: pointer;
+        left: 87px;
+        transition: all 0.3s;
+    }
+    .log-btn button:hover {
+        background-color: rgba(255, 255, 255, 0.467);
+    }
+    .ask-redirect-register h5 {
+        position: relative;
+        top: 170px;
+        left: 50px;
+    }
+
+}

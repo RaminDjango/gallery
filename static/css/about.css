@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    left: -10px;
+    height: 485px;
+    width: 2500px;
+    background-color: rgba(20, 19, 19, 0.449);
+
+}
+.mobile h3 {
+    visibility: hidden;
+
+}
+
+
+.title #wifi1 {
+    position: relative;
+    left: 480px;
+    top: 50px;
+    font-size: 30px;
+}
+.title #wife2 {
+    position: relative;
+    left: 1020px;
+    top: 127px;
+    font-size: 30px;
+}
+.text p {
+    position: relative;
+    left: 400px;
+    top: 130px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title h1 {
+    position: relative;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    left: 660px;
+    top: 120px;
+
+}
+.button-go-back a {
+    position: relative;
+    
+    margin-left: 675px;
+    top: -90px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(14, 196, 14, 0.718);
+    border-radius: 50px;
+    padding: 20px;
+    transition: all 1s;
+
+}
+.button-go-back a:hover {
+    box-shadow: 0px 0px 10px 10px rgba(23, 255, 23, 0.59);
+}
+@media screen and (max-width:500px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
+        overflow-x: hidden;
+        background-repeat: no-repeat;
+        height: 920px;
+        background-size: cover;
+    }
+    .container {
+        position: relative;
+        left: -400px;
+        height: 580px;
+        width: 2500px;
+        background-color: rgba(20, 19, 19, 0.449);
+
+    }
+
+    .title #wifi1 {
+        position: relative;
+        left: 480px;
+        top: 50px;
+        font-size: 30px;
+    }
+    .title #wife2 {
+        position: relative;
+        left: 720px;
+        top: 123px;
+        font-size: 30px;
+    }
+    .text p {
+        display: none;
+    }
+    .mobile h3 {
+        
+        position: relative;
+        visibility: visible;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        left: 450px;
+        top: 120px;
+        
+        
+    }
+
+    .title h1 {
+        position: relative;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        left: 550px;
+        top: 120px;
+
+    }
+    .button-go-back a {
+        position: relative;
+        
+        margin-left: 565px;
+        top: 160px;
+        text-decoration: none;
+        color: white;
+        background-color: rgba(14, 196, 14, 0.718);
+        border-radius: 50px;
+        padding: 20px;
+        transition: all 1s;
+
+    }
+    .button-go-back a:hover {
+        box-shadow: 0px 0px 10px 10px rgba(23, 255, 23, 0.59);
+    }
+}

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    overflow-x: hidden;
+    overflow-y:hidden ;
+    background-color: rgb(18, 17, 17);
+
+    
+}
+
+.image,  img {
+    position: relative;
+    width: 800px;
+    height: 744px;
+    box-shadow: 0px 0px 20px 15px;
+}
+.title-add h1 {
+    position: relative;
+    z-index: 1;
+    top: -669px;
+    font-family:  sans-serif;
+    background-color: black;
+    z-index: -1;
+    width: 500px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    left: 950px;
+
+
+}
+.description-add h3 {
+    position: relative;
+    top: -660px;
+    left: 955px;
+    background-color: rgba(0, 0, 0, 0.686);
+    color: white;
+    font-family: sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+
+@media screen and (max-width:500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        overflow-y: visible;
+        background-color: rgb(18, 17, 17);
+    
+        
+    }
+    
+    .image,  img {
+        position: relative;
+        top: -9px;
+        left: -1px;
+        width: 417px;
+        height: 645px;
+        box-shadow: 0px 0px 10px 10px black;
+    }
+    .btn a {
+        position: relative;
+        left: 134px;
+        top: 30px;
+        text-decoration:none ;
+        color: white;
+        background-color: rgba(45, 98, 212, 0.856);
+        font-family: sans-serif;
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 4px;
+        text-align: center;
+        transition: all 1s;
+    }
+    .btn a:hover {
+        background-color: rgba(45, 98, 212, 0.612);
+    }
+    .title-add h1 {
+        position: relative;
+        z-index: 1;
+        top:65px;
+        font-family:  sans-serif;
+        background-color: black;
+        z-index: 1;
+        width: 220px;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        left: 70px;
+    
+    
+    }
+    .description-add h3 {
+        position: relative;
+        top: 100px;
+        left: 25px;
+        background-color: rgba(0, 0, 0, 0.686);
+        color: white;
+        font-family: sans-serif;
+        padding: 15px;
+        border-radius: 0px 5px 5px 0px;
+        width: 350px;
+    }
+    
+
+}

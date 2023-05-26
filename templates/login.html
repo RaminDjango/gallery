@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/log.css' %}">
+    <script src="https://kit.fontawesome.com/fa7463cb25.js" crossorigin="anonymous"></script>
+    <title>Login-Gallery</title>
+</head>
+<body>
+
+        <div class="container">
+            <div class="img-login">
+                <img style="width:100px;" src="{% static '/image/Google-Photos-Logo-2015.png' %}" alt="">
+            </div>
+            <div class="card-title">
+                <h2>Login Gallery</h2>
+                <div class="text">
+                    <p>Please login to use the platform</p>
+                </div>
+            <form action="" method="POST">
+                {% csrf_token %}
+                <div class="username">
+                    <input type="text" name="username" placeholder="Username">
+                    <i class="fa-solid fa-user fa-flip-horizontal"></i>
+                </div>
+                <div class="password">
+                    <input type="password" name="password" placeholder="Password">
+                    <i class="fa-solid fa-key fa-flip-horizontal"></i>                
+                </div>
+                <div class="forget-password">
+                    <a href="{% url 'reset_password' %}">I forgot my password!</a>
+
+                </div>
+                <div class="log-btn">
+                    <button type="submit">SIGN IN</button>
+
+                </div>
+                <div class="ask-redirect-register">
+                    <h5>Don't have an account? <a href="{% url 'regist' %}">Create a free account.</a></h5>
+                </div>
+            </form>
+
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

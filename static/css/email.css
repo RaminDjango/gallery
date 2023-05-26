@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Quicksand:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(19, 17, 17, 0.929);
+    overflow-x: hidden;
+    overflow-y:hidden ;
+}
+label {
+    position: relative;
+    left: 395px;
+    top: 287px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    z-index: -1;
+    color: white;
+    
+}
+.reset-pss h2 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#id_email {
+    position: relative;
+    top: 280px;
+    left: 420px;
+    padding-left: 60px;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 15px;
+    font-size: 25px;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    height: 60px;
+    width: 400px;
+}
+
+#id_email:focus {
+    border: 2px solid skyblue;
+}
+.img-logo img {
+    position: relative;
+    left: 650px;
+    top: 100px;
+    animation:  rotate 1s ease-out forwards infinite;
+}
+@keyframes rotate {
+    0% {transform: rotate(-360deg);}
+    
+}
+button {
+    position: relative;
+    top: 330px;
+    left: 635px;
+    background-color: rgba(0, 0, 0, 0.883);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+button:hover{
+    background-color: rgba(13, 164, 166, 0.552);
+}
+.item i {
+    position: relative;
+    left: 580px;
+    top: 340px;
+   
+    font-size: 30px;
+
+}
+@media screen and (min-width:500px) {
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Quicksand:wght@600&display=swap');
+   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: rgba(19, 17, 17, 0.929);
+        overflow-x: hidden;
+        overflow-y:hidden ;
+    }
+    label {
+        position: relative;
+        left: 205px;
+        top: 280px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 50px;
+        z-index: -1;
+        color: white;
+        
+    }
+    .reset-pss h2 {
+        position: relative;
+        top: 200px;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+    }
+    #id_email {
+        position: relative;
+        top: 273px;
+        left: 220px;
+        padding-left: 60px;
+        background-color: rgba(0, 0, 0, 0.521);
+        border-radius: 15px;
+        font-size: 25px;
+        color: whitesmoke;
+        outline: none;
+        border: none;
+        height: 60px;
+        width: 400px;
+    }
+
+    #id_email:focus {
+        border: 2px solid skyblue;
+    }
+    .img-logo img {
+        position: relative;
+        left: 475px;
+        top: 100px;
+        animation:  rotate 1s ease-out forwards infinite;
+    }
+    @keyframes rotate {
+        0% {transform: rotate(-360deg);}
+        
+    }
+    button {
+        position: relative;
+        top: 330px;
+        left: 435px;
+        background-color: rgba(0, 0, 0, 0.883);
+        color: white;
+        border: none;
+        outline: none;
+        padding: 10px;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 4px;
+        font-family: 'DM Sans', sans-serif;
+        cursor: pointer;
+        transition: all 1s ease;
+
+    }
+    button:hover{
+        background-color: rgba(13, 164, 166, 0.552);
+    }
+    .item i {
+        position: relative;
+        left: 376px;
+        top: 332px;
+    
+        font-size: 30px;
+
+    }
+
+
+    
+}

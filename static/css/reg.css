@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://wallpaperaccess.com/full/1283292.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 609px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.container  {
+    position: relative;
+    left: 550px;
+    margin-top:90px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.654);
+    width: 380px;
+    border-radius: 4px;
+}
+.img-logo img {
+    position: relative;
+    left:130px ;
+    animation: img 2s forwards infinite;
+
+}
+@keyframes img {
+    0% {transform: rotate(-360deg);}
+    
+}
+.title-reg h2 {
+    position: relative;
+    top: 5px;
+    left: 82px;
+    font-family: 'Heebo', sans-serif;
+    color: rgba(18, 18, 18, 0.839);
+
+}
+.text-p p {
+    position: relative;
+    top: 16px;
+    left: 65px;
+    font-family: 'Heebo', sans-serif;
+    color: rgba(24, 24, 24, 0.811);
+}
+.firstname-create input {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    width: 280px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.635);;
+}
+.lastname-create input {
+    position: relative;
+    top: 65px;
+    left: 40px;
+    width: 280px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.635);;
+}
+.username-create input {
+    position: relative;
+    top: 75px;
+    left: 40px;
+    width: 280px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.635);;
+}
+.email-create input {
+    position: relative;
+    top: 85px;
+    left: 40px;
+    width: 280px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.635);;
+}
+.password-create input {
+    position: relative;
+    top: 95px;
+    left: 40px;
+    width: 280px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.635);;
+}
+.password-verify input {
+    position: relative;
+    top: 105px;
+    left: 40px;
+    width: 280px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.635);;
+}
+::placeholder {
+    color: black;
+}
+.firstname-create i {
+    position: relative;
+    left: -233px;
+    top: 53px;
+    font-size: 20px;
+}
+.lastname-create i {
+    position: relative;
+    left: -233px;
+    top: 68px;
+    font-size: 20px;
+}
+.username-create i {
+    position: relative;
+    left: -232px;
+    top: 78px;
+    font-size: 20px;
+}
+.email-create i {
+    position: relative;
+    left: -233px;
+    top: 88px;
+    font-size: 20px;
+}
+.password-create i {
+    position: relative;
+    left: -233px;
+    top: 96px;
+    font-size: 20px;
+}
+.password-verify i {
+    position: relative;
+    left: -233px;
+    top: 107px;
+    font-size: 20px;
+}
+.create-acount-btn button {
+    position: relative;
+    top: 125px;
+    left: 10px;
+    border: none;
+    outline: none;
+    width: 360px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    transition: all 1s;
+
+}
+.create-acount-btn button:hover {
+    background-color: rgba(18, 234, 18, 0.807);
+    color: white;
+}
+.go-back-login h5 {
+    position: relative;
+    top: 140px;
+    font-size: 16px;
+    left: 10px;
+}
+
+@media screen and (max-width:500px) {
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: url(https://wallpaperaccess.com/full/1283292.jpg);
+       
+        height: 900px;
+        background-repeat: no-repeat;
+        background-size:cover ;
+       
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .container  {
+        position: relative;
+        top: 120px;
+        left: 16px;
+        margin-top: 30px;
+        height: 600px;
+        background-color: rgba(255, 255, 255, 0.654);
+        width: 380px;
+        border-radius: 4px;
+    }
+    .img-logo img {
+        position: relative;
+        left:130px ;
+        animation: img 2s forwards infinite;
+
+    }
+    @keyframes img {
+        0% {transform: rotate(-360deg);}
+        
+    }
+    .title-reg h2 {
+        position: relative;
+        top: 5px;
+        left: 82px;
+        font-family: 'Heebo', sans-serif;
+        color: rgba(18, 18, 18, 0.839);
+
+    }
+    .text-p p {
+        position: relative;
+        top: 16px;
+        left: 65px;
+        font-family: 'Heebo', sans-serif;
+        color: rgba(24, 24, 24, 0.811);
+    }
+    .firstname-create input {
+        position: relative;
+        top: 50px;
+        left: 40px;
+        width: 280px;
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 15px;
+        border-radius: 15px;
+        color: white;
+        outline: none;
+        border: none;
+        background-color: rgba(30, 30, 30, 0.635);;
+    }
+    .lastname-create input {
+        position: relative;
+        top: 65px;
+        left: 40px;
+        width: 280px;
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 15px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: rgba(30, 30, 30, 0.635);;
+    }
+    .username-create input {
+        position: relative;
+        top: 75px;
+        left: 40px;
+        width: 280px;
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 15px;
+        border-radius: 15px;
+        outline: none;
+        color: white;
+        border: none;
+        background-color: rgba(30, 30, 30, 0.635);;
+    }
+    .email-create input {
+        position: relative;
+        top: 85px;
+        left: 40px;
+        width: 280px;
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 15px;
+        border-radius: 15px;
+        outline: none;
+        color: white;
+        border: none;
+        background-color: rgba(30, 30, 30, 0.635);;
+    }
+    .password-create input {
+        position: relative;
+        top: 95px;
+        left: 40px;
+        width: 280px;
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 15px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: rgba(30, 30, 30, 0.635);;
+    }
+    .password-verify input {
+        position: relative;
+        top: 105px;
+        left: 40px;
+        width: 280px;
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 15px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: rgba(30, 30, 30, 0.635);;
+    }
+    ::placeholder {
+        color: rgb(255, 255, 255);
+    }
+    .firstname-create i {
+        position: relative;
+        left: -233px;
+        top: 53px;
+        font-size: 20px;
+    }
+    .lastname-create i {
+        position: relative;
+        left: -233px;
+        top: 68px;
+        font-size: 20px;
+    }
+    .username-create i {
+        position: relative;
+        left: -232px;
+        top: 78px;
+        font-size: 20px;
+    }
+    .email-create i {
+        position: relative;
+        left: -233px;
+        top: 88px;
+        font-size: 20px;
+    }
+    .password-create i {
+        position: relative;
+        left: -233px;
+        top: 96px;
+        font-size: 20px;
+    }
+    .password-verify i {
+        position: relative;
+        left: -233px;
+        top: 107px;
+        font-size: 20px;
+    }
+    .create-acount-btn button {
+        position: relative;
+        top: 125px;
+        left: 10px;
+        border: none;
+        outline: none;
+        width: 360px;
+        background-color: rgba(15, 15, 15, 0.89);
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        text-transform: uppercase;
+        font-family: 'Heebo', sans-serif;
+        transition: all 1s;
+
+    }
+    .create-acount-btn button:hover {
+        background-color: rgba(18, 234, 18, 0.807);
+        color: white;
+    }
+    .go-back-login h5 {
+        position: relative;
+        top: 140px;
+        font-size: 16px;
+        left: 10px;
+    }
+
+
+    
+}

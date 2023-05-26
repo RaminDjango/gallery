@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/post.css' %}">
+    <script src="https://kit.fontawesome.com/fa7463cb25.js" crossorigin="anonymous"></script>
+    <title>Add in gallery</title>
+</head>
+<body>
+  
+    <div class="container">
+        <a id="return-home" href="{% url 'home' %}"><i class="fa-solid fa-delete-left fa-flip" style="color: #0dc94f;"></i> Go back</a>
+        <div class="logo-img">
+            <img style="width:100px;" src="{% static '/image/Google-Photos-Logo-2015.png' %}" alt="">
+        </div>
+        <div class="title">
+            <h1>Add in your gallery</h1>
+        </div>
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+         
+            <div class="image-add">
+                
+                <input required type="file"    name="img"   accept="image/*" />
+            </div>
+            
+            <div class="title-add">
+                <input name="title" maxlength="20" value="{{up.title}}" placeholder="Give a name " type="text">
+                <i class="fa-solid fa-location-dot fa-bounce" style="color: #20d9cd; font-size:27px;"></i>
+            </div>
+            <div class="description-add">
+                <textarea   placeholder="Describe your experience when you took your picture"  maxlength="1000" name="textare" id="" cols="50" rows="10">{{up.description}}</textarea>
+            </div>
+            <div class="button-add">
+                {% if up %}
+                <button type="submit">Update</button>
+
+                {% else %}
+                <button type="submit">ADD TO GALLERY</button>
+                {% endif %}
+            </div>
+          
+        </form>
+        
+
+    </div>
+    <script >alert('⚠️⚠️UPDATE: You need to put again the same picture or put another picture to update if you dont whant to change image just uploade the same image again and the you update your title and description. if you accidentally access the page you have the return button and nothing will change ⚠️⚠️')</script>
+    
+</body>
+</html>

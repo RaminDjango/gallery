@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/reg.css' %}">
+    <script src="https://kit.fontawesome.com/fa7463cb25.js" crossorigin="anonymous"></script>
+    <title>Registration Gallery</title>
+</head>
+<body>
+    <div class="container">
+        <div class="img-logo">
+            <img style="width: 100px;" src="/image/Google-Photos-Logo-2015.png" alt="">
+
+        </div>
+        <div class="title-reg">
+            <h2>Registration Gallery</h2>
+            <div class="text-p">
+                <p>Create an account on the platform</p>
+            </div>
+            <form action="" method="POST">
+                {% csrf_token %}
+                <div class="firstname-create">
+                    <input name="name" required placeholder="First name" type="text">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <div class="lastname-create">
+                    <input name="lastname" required placeholder="Last name" type="text">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <div class="username-create">
+                    <input name="username" required placeholder="Username" type="text">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="email-create">
+                    <input name="email" required placeholder="Email" type="email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="password-create">
+                    <input name="password" required placeholder="Password" type="password">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="password-verify">
+                    <input name="passverify" required placeholder="Password verify" type="password">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="create-acount-btn">
+                    <button type="submit">Create account</button>
+                </div>
+                <div class="go-back-login">
+                    <h5><a href="{% url  'logins' %}">I already have an account!</a></h5>
+                    {% if messages %}
+                    {% for msg in messages %}
+                    <h3 style="position:relative; color: red; top:170px; left:15px; font-family:sans-serif;" id="mesg-alert-somthing">{{msg}}</h3>
+                    {% endfor %}
+                {% endif %}
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+  
+    
+</body>
+</html>

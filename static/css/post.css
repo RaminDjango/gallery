@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/static/image/8068322.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 800px;
+}
+.container {
+    position: relative;
+    left: 490px;
+    top: 25px;
+    background-color: rgba(148, 63, 163, 0.491);
+    width: 506px;
+    border-radius: 20px;
+    height: 697px;
+}
+.logo-img img {
+    position: relative;
+    left: 190px;
+    animation: img-logo 1s ease-in-out forwards infinite;
+}
+@keyframes img-logo {
+    0% {transform: rotate(-360deg);}
+
+}
+.title h1{
+    position: relative;
+    left: 101px;
+    top: 20px;
+    color: rgba(0, 0, 0, 0.756);
+    font-family: 'Heebo', sans-serif;
+
+
+
+}
+input[type="file"] {
+    position: relative;
+    top: 57px;
+    left: 70px;
+    background-color: rgba(255, 255, 255, 0.692) ;
+    padding: 15px;
+    width: 320px;
+    border-radius: 4px;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+::-webkit-file-upload-button {
+    font-family: 'Heboo', sans-serif;
+    color: white;
+    background-color: rgba(22, 190, 22, 0.798);
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+::-webkit-file-upload-button:active{
+    transform: scale(0.9);
+
+}
+.title-add input[type='text'] {
+    position: relative;
+    top: 90px;
+    left: 84px;
+    background-color: rgba(240, 248, 255, 0.402);
+    font-size: 20px;
+    padding-left: 40px;
+    outline: none;
+    border: none;
+    height: 65px;
+    border-radius: 20px;
+
+}
+.title-add i {
+    position: relative;
+    left: -200px;
+    top: 90px;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+.description-add textarea {
+    position: relative;
+    top: 120px;
+    left: -1px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    font-size: 17px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.688);
+
+}
+.button-add button {
+    position: relative;
+    top: 125px;
+    left: 100px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.803);
+    padding: 16px;
+    font-family: sans-serif;
+    width: 300px;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+.button-add button:hover {
+    background-color: rgba(8, 255, 8, 0.681);
+    color: white;
+}
+#return-home {
+    position: absolute;
+    margin-top: 60px;
+    text-decoration:none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 4px 4px 0px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+#return-home:hover {
+    background-color: rgba(0, 0, 0, 0.681);
+}
+
+@media screen and (max-width:500px) {
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+    body {
+        background-image: url(/static/image/8068322.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 1000px;
+    }
+    #return-home {
+        position: absolute;
+        margin-top: 60px;
+        text-decoration:none;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        border-radius: 0px 4px 4px 0px;
+        padding: 15px;
+        font-family: sans-serif;
+    }
+    #return-home:hover {
+        background-color: rgba(0, 0, 0, 0.681);
+    }
+    .container {
+        position: relative;
+        left:6px;
+        top: 100px;
+        background-color: rgba(148, 63, 163, 0.491);
+        width: 400px;
+        border-radius: 20px;
+        height: 700px;
+    }
+    .logo-img img {
+        position: relative;
+        left: 150px;
+        animation: img-logo 1s ease-in-out forwards infinite;
+    }
+    @keyframes img-logo {
+        0% {transform: rotate(-360deg);}
+
+    }
+    .title h1{
+        position: relative;
+        left: 68px;
+        top: 20px;
+        color: rgba(0, 0, 0, 0.756);
+        font-family: 'Heebo', sans-serif;
+
+
+
+    }
+    input[type="file"] {
+        position: relative;
+        top: 57px;
+        left: 40px;
+        background-color: rgba(255, 255, 255, 0.692) ;
+        padding: 15px;
+        width: 320px;
+        border-radius: 4px;
+        font-family: 'Heebo', sans-serif;
+        
+    }
+
+    ::-webkit-file-upload-button {
+        font-family: 'Heboo', sans-serif;
+        color: white;
+        background-color: rgba(22, 190, 22, 0.798);
+        border: none;
+        outline: none;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 4px;
+    }
+    ::-webkit-file-upload-button:active{
+        transform: scale(0.9);
+
+    }
+    .title-add input[type='text'] {
+        position: relative;
+        top: 90px;
+        left: 54px;
+        background-color: rgba(240, 248, 255, 0.402);
+        font-size: 20px;
+        padding-left: 40px;
+        outline: none;
+        border: none;
+        height: 65px;
+        border-radius: 20px;
+
+    }
+    .title-add i {
+        position: relative;
+        left: -230px;
+        top: 90px;
+    }
+    ::placeholder {
+        color: rgb(255, 255, 255);
+    }
+    .description-add textarea {
+        position: relative;
+        top: 120px;
+        left: -1px;
+        border: none;
+        outline: none;
+        padding-left: 10px;
+        padding-top: 10px;
+        resize: none;
+        width: 401px;
+        font-size: 17px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.688);
+
+    }
+    .button-add button {
+        position: relative;
+        top: 125px;
+        left:50px;
+        border: none;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.803);
+        padding: 16px;
+        font-family: sans-serif;
+        width: 300px;
+        transition: all 1s;
+        cursor: pointer;
+
+    }
+    .button-add button:hover {
+        background-color: rgba(8, 255, 8, 0.681);
+        color: white;
+    }
+    
+}

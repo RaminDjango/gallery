@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%  static '/css/about.css' %}">
+    <script src="https://kit.fontawesome.com/fa7463cb25.js" crossorigin="anonymous"></script>
+
+    <title>About Platform</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <i  id="wife2" style="color:green;" class="fa-solid fa-wifi fa-fade"></i>
+            <h1>About Us</h1>
+            <i id="wifi1" style="color:green;" class="fa-solid fa-wifi fa-fade"></i>
+        </div>
+        
+        <div class="text">
+            <p>We are glad that you use our platform to add memories and events through a simple image. <br>
+                We created this site to be able to store your images, including the time when the image was <br>
+                created so as not to lose the notion of time and since you have the picture in the gallery. <br>
+                The system is for you to create your own gallery I hope customs was useful mr. @OrahiRamin</p>
+        </div>
+        <div class="mobile">
+            <h3>We are glad that you <br> use our platform to add memories <br> and events through a simple image. <br>
+                We created this site <br> to be able to store your images, <br> including the time when the image was <br>
+                created so as not to <br> lose the notion of time and since <br> you have the picture in the gallery. <br>
+                The system is for you <br> to create your own gallery I hope <br> customs was useful mr. @OrahiRamin</h3>
+        </div>
+        <div class="button-go-back">
+            <a href="{% url 'home' %}"><i class="fa-solid fa-hand-point-left fa-flip"></i>Go back</a>
+        </div>
+    </div>
+    
+</body>
+</html>

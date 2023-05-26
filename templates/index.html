@@ -1,0 +1,124 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/fa7463cb25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static '/css/style.css' %}" />
+    <title>My Gallery</title>
+</head>
+
+<body>
+    <div class="img-logo">
+        <img style="width: 130px" src="/static/image/Google-Photos-Logo-2015.png" alt="" />
+    </div>
+  
+    <div class="container">
+            <div class="username-exist">
+             
+                <h2>User: @{{user.username}}</h2>
+                
+
+            </div>
+            <div class="text-logo">
+                <a id="gallery" style="display:inline-block;" href="{% url 'home' %}">
+                    <h2>My gallery</h2>
+                </a>
+            </div>
+            <div class="text-about">
+                <a style="display:contents;" href="{% url 'about' %}">
+                    <h2 id="h2">About Platform</h2>
+                </a>
+            </div>
+            <div class="create-post">
+                <a id="create-picture" style="display: inline-block;" href="{% url 'form' %}">
+                    <h2>CREATE A POST</h2>
+                </a>
+            </div>
+            <div class="mobile">
+                <a href="{% url 'form' %}"><i style="color: rgba(14, 198, 14, 0.732); font-size: 40px;" class="fa-solid fa-plus"></i></a>
+
+            </div>
+
+        
+    </div>
+    <div class="login-page">
+        {% if user.is_authenticated %}
+        <a id="log" style="text-decoration: none; display:inline-block;" href="{% url 'logout' %}"><h2>Log out</h2></a>
+        {% else %}
+        <a id="log" style="text-decoration: none; display:inline-block;" href="{% url 'logins' %}"><h2>Log in</h2></a>
+        {% endif %}
+    </div>
+
+    <form id="frm"  method="GET">
+        <input id="inp" placeholder="Search a picture" type="search" name="q" />
+        <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    
+    <div class="contain-repet-form">
+        {% for x in date_add %}
+
+        <div class="cont">
+            <div class="img-story">
+                
+                {% if x.image %}
+                <img style="width: 349px; border-radius: 4px 4px 0px 0px" src="{{x.image.url}}" alt=""/>
+                {% endif %}
+            </div>
+            
+            <div class="tit-img">
+                <h2>{{x.title}}</h2>
+                <i class="fa-solid fa-earth-americas fa-flip" style="color: #001eff; font-size: 20px"></i>
+            </div>
+            <div class="create-post">
+                <h3>{{x.date}}</h3>
+                <i class="fa-regular fa-clock fa-spin" style="color: #05ff9f; font-size: 20px"></i>
+            </div>
+            <div class="function-view">
+                <h3>
+                    <a style="
+                font-family: sans-serif;
+                color: white;
+                text-decoration: none;
+              " href="{% url 'views' x.id %}">More<i class="fa-regular fa-eye" style="color: #458569"></i></a>
+                </h3>
+            </div>
+            <div class="function-edit">
+                <h3>
+                    <a style="
+                font-family: sans-serif;
+                color: white;
+                text-decoration: none;
+              " href="{% url 'updt' x.id %}">Update<i class="fa-solid fa-wrench" style="color: #007076"></i></a>
+                </h3>
+            </div>
+            <div class="function-delete">
+                <h3>
+                    <a style="
+                font-family: sans-serif;
+                color: white;
+                text-decoration: none;
+              " href="{% url 'delete' x.id %}">Delete<i class="fa-solid fa-trash-can" style="color: #ff0101"></i></a>
+                </h3>
+            </div>
+            
+        </div>
+        {% endfor %}
+    </div>
+    
+   
+               
+    </div>
+    <div></div>
+    <div class="creators-maker">
+        <div class="title-cretor">
+            <h1>Creator of the site Orahi Ramin <i class="fa-regular fa-copyright fa-bounce"></i></h1>
+        </div>
+    </div>
+    
+</body>
+
+</html>

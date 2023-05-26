@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: rgb(18, 17, 17);
+
+    
+}
+
+.img-story img {
+    width: 300px;
+    height: 348px;
+
+}
+
+
+.img-logo img  {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    z-index: 1;
+    text-decoration:none;
+    animation: img-logo-rote 2s  forwards infinite;
+}
+
+@keyframes img-logo-rote {
+    0% {transform: rotate(360deg);}
+    
+}
+
+.mobile a {
+    
+    display: none;
+   
+   
+}
+.username-exist h2 {
+    position: relative;
+    left: 1240px;
+    color: white;
+    top: -15px;
+}
+
+.text-logo #gallery {
+    position: relative;
+    left: 250px;
+    top: -40px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+#gallery:hover {
+    opacity: 0.7;
+
+}
+
+.text-about #h2{
+    position: relative;
+    left: 530px;
+    top: -65px;
+    font-family: sans-serif;
+    color: white;
+    display:inline-block;
+    
+}
+#h2:hover {
+    opacity: 0.6;
+}
+.create-post #create-picture {
+    position: relative;
+    left: 850px;
+    
+    top: -94px;
+    font-family: sans-serif;
+    text-decoration: underline gray;
+    color: white;
+
+}
+
+#create-picture:hover {
+    opacity: 0.5;
+}
+#log h2 {
+    position: relative;
+    left: 1100px;
+    top: -138px;
+    background: rgba(61, 175, 4, 0.622);
+    width: 120px;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    
+    transition: all 1s;
+}
+#log h2:hover {
+    background-color: rgba(25, 125, 14, 0.209);
+}
+form input {
+    position: relative;
+    margin-left: 350px;
+    border-radius: 3px;
+    outline: none;
+    top: -40px;
+    border: none;
+    padding: 15px;
+    width:194px;
+    color: black;
+    font-size: 20px;
+    transition: all 2s;
+    
+}
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+input:focus {
+    box-shadow: 0px 0px 20px 10px rgb(159, 156, 156);
+    width: 600px;
+}
+form #btn {
+    position: relative;
+    top: -30px;
+    margin-left: 18px;
+    border: none;
+    outline:none ;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+
+}
+.contain-repet-form {
+    position: relative;
+    left: -90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.cont {
+    position: relative;
+    left: 130px;
+    background-color: rgba(255, 255, 255, 0.083);
+    width: 349px;
+    height: 532px;
+    border-radius: 4px;
+}
+.tit-img h2 {
+    position: relative;
+    top: 29px;
+    left: 30px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+
+.create-post h3 {
+    position: relative;
+    color: white;
+    top: 24px;
+    left: 30px;
+}
+.create-post i {
+    position: relative;
+    left: -10px;
+}
+
+.function-view  h3 {
+    position: relative;
+    top: 29px;
+    background-color: black;
+    width: 108px;
+    padding: 15px;
+    border-radius: 0px 0px 0px 4px;
+    
+   
+}
+.fa-regular {
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+
+}
+.function-edit  h3 {
+    position: relative;
+    top: -23px;
+    left: 109px;
+    background-color: black;
+    width: 130px;
+    padding: 15px;
+    
+   
+}
+.fa-wrench {
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+
+}
+.function-delete h3 {
+    position: relative;
+    top: -75px;
+    left: 240px;
+    background-color: black;
+    width: 109px;
+    padding: 15px;
+    border-radius: 0px 0px 4px 0px;
+}
+.function-delete i {
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.title-cretor h1 {
+    position: relative;
+    top: 80px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+@media screen and (max-width:500px) {
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: rgb(18, 17, 17);
+    
+        
+    }
+    
+    .img-story img {
+        width: 300px;
+        height: 348px;
+    
+    }
+    
+  
+   
+    
+
+
+    .img-logo img  {
+        position: relative;
+        top: 350px;
+        z-index: -1;
+        left: 140px;
+        text-decoration:none;
+        
+        animation: img-logo-rote 2s  forwards infinite;
+    }
+
+    @keyframes img-logo-rote {
+        0% {transform: rotate(360deg);}
+        
+    }
+
+
+    .text-logo #gallery {
+        position: relative;
+        left: 10px;
+        top: 130px;
+        font-family: sans-serif;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        display: inline-block;
+    }
+    #gallery:hover {
+        opacity: 0.7;
+
+    }
+    .open img {
+        position: relative;
+        left: 340px;
+        top: -100px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: red;
+        width: 50px;
+        background-color: skyblue;
+        padding: 10px;
+        
+        
+    }
+     
+    .username-exist h2 {
+        position: relative;
+        left: 5px;
+        top: -70px;
+        font-size: 24px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    .text-about #h2{
+        position: relative;
+        left: 140px;
+        top: 107px;
+        font-family: sans-serif;
+        color: white;
+        display:block;
+        font-size: 21px;
+       
+    }
+    #h2:hover {
+        opacity: 0.6;
+    }
+    .mobile a {
+        position: relative;
+        left: 340px;
+        top: 46px;
+        font-family: sans-serif;
+        font-size: 30px;
+        display:block;
+        font-size: 21px;
+       
+       
+    }
+
+    #create-picture:hover {
+        opacity: 0.5;
+    }
+    #log h2 {
+        position: relative;
+        left: 10px;
+        background: rgba(138, 215, 23, 0.612);
+        width: 120px;
+        padding: 15px;
+        border-radius: 3px;
+        text-align: center;
+        top: -144px;
+        display: block;
+        font-family: sans-serif;
+        color: white;
+        transition: all 2s;
+    }
+    #log:hover {
+        background-color: rgb(90, 85, 85);
+    }
+    form input {
+        position: relative;
+        margin-left: 40px;
+        border-radius: 3px;
+        outline: none;
+        top: 250px;
+        border: none;
+        padding: 15px;
+        width:194px;
+        color: black;
+        font-size: 20px;
+        z-index: 1;
+        transition: all 2s;
+        
+    }
+    ::placeholder {
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+        font-size: 20px;
+
+    }
+    input:focus {
+        box-shadow: 0px 0px 20px 10px rgb(159, 156, 156);
+        width: 300px;
+    }
+    form #btn {
+        position: relative;
+        top: 260px;
+        margin-left: 18px;
+        border: none;
+        outline:none ;
+        background: none;
+        color: white;
+        cursor: pointer;
+        font-size: 40px;
+
+    }
+    .contain-repet-form {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        margin-left: 90px;
+    }
+    .cont {
+        position: relative;
+        top: 300px;
+        left: 40px;
+        background-color: rgba(255, 255, 255, 0.083);
+        width: 349px;
+        height: 532px;
+        border-radius: 4px;
+    }
+    .tit-img h2 {
+        position: relative;
+        top: 29px;
+        left: 30px;
+        color: white;
+        font-family: 'Heebo', sans-serif;
+    }
+
+    .create-post h3 {
+        position: relative;
+        color: white;
+        top: 24px;
+        left: 30px;
+        
+    }
+    .create-post i {
+        position: relative;
+        left: -10px;
+    }
+
+    .function-view  h3 {
+        position: relative;
+        top: 29px;
+        background-color: black;
+        width: 108px;
+        padding: 15px;
+        border-radius: 0px 0px 0px 4px;
+        
+    
+    }
+    .fa-regular {
+        position: relative;
+        top: 2px;
+        margin-left: 10px;
+
+    }
+    .function-edit  h3 {
+        position: relative;
+        top: -23px;
+        left: 109px;
+        background-color: black;
+        width: 130px;
+        padding: 15px;
+        
+    
+    }
+    .fa-wrench {
+        position: relative;
+        top: 2px;
+        margin-left: 10px;
+
+    }
+    .function-delete h3 {
+        position: relative;
+        top: -75px;
+        left: 240px;
+        background-color: black;
+        width: 109px;
+        padding: 15px;
+        border-radius: 0px 0px 4px 0px;
+    }
+    .function-delete i {
+        position: relative;
+        left: 10px;
+        top: 2px;
+    }
+
+    .title-cretor h1 {
+        position: relative;
+        top: 400px;
+        color: white;
+        background-color: black;
+        height: 160px;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+}
